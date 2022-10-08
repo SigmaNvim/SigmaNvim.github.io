@@ -2,4 +2,5 @@
 
 - [About](./About/about.md)
 - [Installation](./Install/install.md)
-  - [QuickStart](./Install/quickstart.md)
+- [Configuration](./Configuration/Configuration.md)
+    - [Quick Start Defaults](./Configuration/quickstart_defaults.md)

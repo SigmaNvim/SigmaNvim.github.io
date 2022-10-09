@@ -5,6 +5,7 @@
   - lua
   - neovim
 - Optional
+  - ripgrep (if using telescope)
   - Custom configuration
 
 ### QuickStart with lua helper script

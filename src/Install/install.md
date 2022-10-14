@@ -8,12 +8,12 @@
   - ripgrep (if using telescope)
   - Custom configuration
 
-### QuickStart with lua helper script
+### Quick Start with lua helper script
 ```
 curl -sLf https://raw.githubusercontent.com/SigmaNvim/SigmaNvim/main/quick_start.lua -o quick_start.lua
 lua quick_start.lua
 ```
-The helper script will give you the option of adding in the default custom configuration for SigmaNvim or the cloning of a previously used custom config
+The helper script will give you the option of adding in the default custom configuration for SigmaNvim or the cloning of a previously used custom config. 
 
 ### Installation with git
 ```

@@ -8,12 +8,14 @@ docker run -it sigma
 ```
 
 > Notes
-- The Dockerfile always sets the default config
-- You can set the branch by supplying an argument to docker run. See below
+- You can set the branch and or a custom configuration git repo via environment variables. 
+- Example setting a different branch other than main.
 ```
-docker run -it sigma feature/new_thing
+docker run -it --env="CUSTOM_BRANCH=main" sigma
 ```
-- You can also supply a custom git repo like below (you must supply a branch for now)
+- Example setting a custom configuration via git.
+- This clones the repository to the nvim/lua/custom directory.
 ```
-docker run -it sigma main https://my_custom_version.git
+docker run -it --env="CUSTOM_REPO=https://mycustom_setup.git" sigma
 ```
+- When running via docker it always sets the default config unless the environment variables are set
